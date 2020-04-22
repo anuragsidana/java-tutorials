@@ -13,10 +13,7 @@
 
         <userTask id="approveTask" name="Approve or reject request" flowable:candidateGroups="managers"/>
         <sequenceFlow sourceRef="approveTask" targetRef="decision"/>
-Default
 
-
-        BoradCastingEventService
         <exclusiveGateway id="decision"/>
         <sequenceFlow sourceRef="decision" targetRef="externalSystemCall">
             <conditionExpression xsi:type="tFormalExpression">
