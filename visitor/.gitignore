@@ -9,6 +9,7 @@
 .*.md.html
 .DS_Store
 .classpath
+target
 .factorypath
 .gradle
 .idea
