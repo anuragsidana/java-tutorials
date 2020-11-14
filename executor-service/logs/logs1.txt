@@ -1,0 +1,3 @@
+requestId      timeStamp       text
+586763334343 1523718907817 NullPointerException
+586763334343 1523718907818 IllegalAgrumentsException
